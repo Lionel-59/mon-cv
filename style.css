@@ -1,0 +1,89 @@
+/* Reset some default styles */
+body, h1, h2, h3, p, ul, li {
+  margin: 0;
+  padding: 0;
+}
+
+/* Set a background color and font family for the whole page */
+body {
+  background-color: #f0f0f0;
+  font-family: Arial, sans-serif;
+}
+
+/* Header styles */
+.header {
+  background-color: #00FF00;
+  color: #ffffff;
+  text-align: center;
+  padding: 20px;
+}
+
+.header__title {
+  font-size: 24px;
+  margin: 10px 0;
+}
+
+.header__sub-title {
+  font-size: 18px;
+  margin: 10px 0;
+}
+
+.header__picture {
+  max-width: 100px;
+  border-radius: 50%;
+}
+
+/* Main content styles */
+.main {
+  padding: 20px;
+}
+
+.main__container__personal,
+.main__container__experience {
+  background-color: #ffffff;
+  padding: 20px;
+}
+
+.main__container__personal__title,
+.main__container__experience__title {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.main__container__personal-list,
+.main__container__experience-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.main__container__personal-list li,
+.main__container__experience-list li {
+  margin-bottom: 5px;
+}
+
+/* Footer styles */
+.footer {
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+}
+
+.footer__socialNetworks {
+  margin-bottom: 10px;
+}
+
+.footer__socialNetworks a {
+  color: #fff;
+  font-size: 24px;
+  margin: 0 10px;
+  text-decoration: none;
+}
+
+/* Style the small text at the bottom */
+.footer small {
+  display: block;
+  margin-top: 10px;
+  font-size: 12px;
+}
